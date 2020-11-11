@@ -1,0 +1,232 @@
+*{
+  font-family: "微軟正黑體";
+}
+.wrap{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header{
+  background: #f6f6f6;
+}
+
+.header ul{
+  float: right;
+}
+
+.header ul li{
+  float: left;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.fb{
+  background-image:url(https://upload.cc/i1/2020/07/07/O40JWx.png);
+  display: block;
+	width: 80px;
+	height: 27px;
+	text-indent: 101%;
+	overflow: hidden;
+}
+
+.twitter{
+  background-image: url(https://upload.cc/i1/2020/07/07/p1dreB.png);
+  display: block;
+	width: 85px;
+	height: 28px;
+	text-indent: 101%;
+	overflow: hidden;
+}
+
+.clearfix{
+  clear: both;
+}
+/* banner */
+.banner{
+  width: 1000px;
+}
+.logo{
+  background-image: url(https://upload.cc/i1/2020/07/07/5SLq1a.png);
+  display: block;
+  width: 200px;
+	height: 50px;
+	text-indent: 101%;
+	overflow: hidden;
+  float: left;
+}
+/* menu */
+.menu{
+  margin: 0;
+}
+.menu ul{
+  float: right; 
+}
+.menu li{
+  margin: 10px;
+  float: left;
+}
+
+.menu li a{
+	color: #07cd9c;
+	text-decoration: none;
+}
+.menu li a:hover{
+  padding-bottom: 7px;
+  border-bottom: 3px solid #07cd9c;
+  cursor: pointer;
+}
+/* banner  */
+.banner-item{
+  background-image: url(../img/banner.png);
+  background-repeat: no-repeat;
+  height: 350px;
+  padding-top: 90px;
+}
+.banner-item p{
+  padding: 20px;
+  padding-left: 20px;
+  background: rgba(0, 0, 0, .35);
+  color: #ffffff;
+  font-size: 34px;
+}
+.item li{
+  width: 320px;
+  height: 350px;
+  float: left;
+  border: 1px solid #E8E9EE;
+  text-align: center;
+  box-shadow: 1px 3px #DEE2D6;
+  box-sizing: border-box;
+}
+.item li:nth-child(2){
+  margin: 0 20px;
+}
+.item img{
+  margin-top: 20px;
+  width: auto;
+  height: 136px;
+}
+.item .rwd-img{
+  width: 260px;
+}
+.item h2{
+  text-align: center;
+  font-weight: bold;
+}
+.item p{
+  padding: 10px;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-align: left;
+}
+
+
+/* table */
+
+.subject table{
+  border-collapse: collapse;
+  border-spacing: 0; 
+}
+.subject table th, table td{
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.subject thead th{
+  border-top: 1px solid #ddd;
+  background: #f7f7f7;
+  padding: 10px;
+  text-align-last: left;
+}
+.subject{
+  width: 80%;
+}
+.subject caption{
+  margin: 20px 0;
+  text-align: center;
+}
+
+.subject{
+  margin: 0 auto;
+}
+.subject tr{
+  margin: 10px;
+}
+.subject span{
+  color: #00a67d;
+}
+
+/* footer */
+.footer{
+  margin: 30px 0 0 0;
+  color: #fff;
+  background-color: #00654c;
+  
+}
+.footer h2, .footer p{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  letter-spacing: 1.3px;
+}
+.footer_fl-l{
+  margin: 20px;
+  float: left;
+}
+.footer textarea{
+  width: 450px;
+  border-radius: 5px;
+}
+.footer_fl-r{
+  margin: 20px;
+  float: left;
+}
+.footer_fl-r form{
+  width: 450px;
+}
+.footer_fl-r form label{
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+}
+.footer_fl-r input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: none;
+}
+.footer_fl-r input[type=submit]{
+  margin-top: 5px;
+  float: right;
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00CC99;
+  color: #fff;
+}
+
+.end_footer img{
+  padding: 30px;
+}
+.address{
+  float: right;
+  margin: 10px;
+  padding-top: 20px;
+  font-size: 0.6rem;
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+  cursor: pointer;
+}
+.address a{
+  text-decoration: none;
+  color: red;
+}
+.address span{
+  color: #000;
+  cursor: pointer;
+}
